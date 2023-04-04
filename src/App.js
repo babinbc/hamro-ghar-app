@@ -18,11 +18,11 @@ function App() {
         </div>
         <div className = "content">
           <Routes>
-            <Route exact path="/" element={<Home/>} />
-            <Route path="/create" element={<Create />} />
-            <Route path="/orders/:id" element={<OrderDetails />}/>
-            <Route path="/edit/:id" element={<EditOrder />} />
-            <Route path="/orders/filter" element={<FilteredOrders />} />
+            <Route exact path="/hamro-ghar-app/" element={<Home/>} />
+            <Route path="/hamro-ghar-app/create" element={<Create />} />
+            <Route path="/hamro-ghar-app/orders/:id" element={<OrderDetails />}/>
+            <Route path="/hamro-ghar-app/edit/:id" element={<EditOrder />} />
+            <Route path="/hamro-ghar-app/orders/filter" element={<FilteredOrders />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

@@ -10,7 +10,7 @@ const OrderDetails = () => {
         fetch('https://test-api-5zla.onrender.com/orders/' + orderDetails.id,{
             method:'DELETE'
         }).then(() => {
-            navigate('/');
+            navigate('/hamro-ghar-app/');
         })
     }
 
@@ -42,7 +42,7 @@ const OrderDetails = () => {
                     </div>
                     <div className = "order-btn-block">
                         <div className="edit-order-btn">
-                            <Link to={`/edit/${orderDetails.id}`}>
+                            <Link to={`/hamro-ghar-app/edit/${orderDetails.id}`}>
                                 Edit
                             </Link>
                         </div>
